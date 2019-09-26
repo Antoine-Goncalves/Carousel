@@ -1,0 +1,15 @@
+li {
+
+	display: none;
+
+}
+
+.active {
+
+	display: block;	
+
+}
+
+img {
+	width: 15rem;
+}
