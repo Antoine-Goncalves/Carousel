@@ -58,10 +58,10 @@ function previousImageWithArrowKeyboard(event) {
 	}
 }
 
-function addDarkMode() {
+function addDarkMode(event) {
 	let color = document.body.style.backgroundColor;
 
-    	if (color == "") {
+    	if (color == "" && event.keyCode === 32) {
         	
 		document.body.style.backgroundColor = "#0D0D0D";
     	} else {
@@ -78,4 +78,4 @@ document.addEventListener("keyup", nextImageWithArrowKeyboard);
 
 document.addEventListener("keyup", previousImageWithArrowKeyboard);
 
-darkMode.addEventListener("click", addDarkMode);
+document.addEventListener("keypress", addDarkMode);
