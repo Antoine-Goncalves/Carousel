@@ -6,6 +6,8 @@ const buttonPrevious = document.querySelector(".arrowPrevious");
 
 const li = document.querySelectorAll("li");
 
+const darkMode = document.querySelector(".darkMode");
+
 let indexNext = 0;
 
 let indexPrevious = li.length;
@@ -56,6 +58,18 @@ function previousImageWithArrowKeyboard(event) {
 	}
 }
 
+function addDarkMode() {
+	let color = document.body.style.backgroundColor;
+
+    	if (color == "") {
+        	
+		document.body.style.backgroundColor = "#0D0D0D";
+    	} else {
+		document.body.style.backgroundColor = "";
+	}
+    	
+}
+
 buttonNext.addEventListener("click", nextImage);
 
 buttonPrevious.addEventListener("click", previousImage);
@@ -63,3 +77,5 @@ buttonPrevious.addEventListener("click", previousImage);
 document.addEventListener("keyup", nextImageWithArrowKeyboard);
 
 document.addEventListener("keyup", previousImageWithArrowKeyboard);
+
+darkMode.addEventListener("click", addDarkMode);
