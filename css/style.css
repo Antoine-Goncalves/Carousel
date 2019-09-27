@@ -1,6 +1,7 @@
 body {
 
 	display: flex;
+	justify-content: center;
 }
 
 li {
@@ -12,7 +13,7 @@ li {
 
 button {
 	height: 5rem;
-	margin-top: 5rem;
+	margin-top: 10rem;
 }
 
 .active {
@@ -22,5 +23,5 @@ button {
 }
 
 img {
-	width: 15rem;
+	width: 25rem;
 }
