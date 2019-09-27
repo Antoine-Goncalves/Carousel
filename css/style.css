@@ -1,7 +1,18 @@
+body {
+
+	display: flex;
+}
+
 li {
 
 	display: none;
+	padding-right: 2.5rem;
 
+}
+
+button {
+	height: 5rem;
+	margin-top: 5rem;
 }
 
 .active {
