@@ -1,27 +1,18 @@
-body {
-
+ul {
 	display: flex;
 	justify-content: center;
 }
 
 li {
-
 	display: none;
-	padding-right: 2.5rem;
-
-}
-
-button {
-	height: 5rem;
-	margin-top: 10rem;
 }
 
 .active {
-
 	display: block;	
-
 }
 
-img {
-	width: 25rem;
+ul button {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	border: none;
 }
