@@ -4,7 +4,7 @@ Dans le cadre d'une formation de developpeur web, nous avons eu pour exercice de
 
 Avec comme critère qualité :
 * Switch d'image à chaque clic sur le bouton.
-* Liste d'image ( balise <li> ).
+* Liste d'image ( balise `<li>` ).
 
 Critères qualité *Bonus* :
 * De vraies images.
