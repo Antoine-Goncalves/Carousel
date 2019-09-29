@@ -59,12 +59,12 @@ function previousImageWithArrowKeyboard(event) {
 }
 
 function addDarkMode(event) {
-	let color = document.body.style.backgroundColor;
+	let color = document.body.style.background;
 
     	if (color == "") {
-		document.body.style.backgroundColor = "#0D0D0D";
+		document.body.style.background = "#0D0D0D";
     	} else {
-		document.body.style.backgroundColor = "";
+		document.body.style.background = "";
 	}
     	
 }
